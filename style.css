@@ -1,0 +1,100 @@
+
+body{
+    font-family: 'Archivo', sans-serif;
+    font-size: 17px;
+}
+h1{ 
+    font-family: 'Bree Serif', serif;
+    font-weight: 500;
+    font-size: 3.5rem;
+    color: #fff5f9;
+}
+h2{
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: 'Bree Serif', serif;
+    
+}
+.container-fluid{
+    padding: 2% 7%;
+}
+/* Navbar*/
+
+.navbar-brand{
+    font-size: 2rem;
+}
+.nav-item{
+    
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.nav-link{
+    font-size: 16px;
+}
+
+/*Home section*/
+#home{
+    background-color: #ff5977;
+}
+.title{
+    padding-top: 50px;
+}
+.banner{
+
+    width:100%;
+
+}
+.title-para{
+    color: #fff5f9;
+    line-height: 2;
+    font-size: 20px; 
+    padding-top: 5%;
+    padding-right: 15%;
+}
+.title-btn{
+    margin: 5% 3% 5% 0;
+}
+/*feature section*/
+#feature{
+    background-color: #fff5f9;
+    padding: 100px 0;
+    text-align: center;
+}
+.core-sec{
+    font-size: 15px;
+    line-height: 2; 
+    padding: 25px 50px 0 50px;    
+}
+.feature-content{
+    
+    line-height: 2;
+}
+/*Service section*/
+#service{
+    background-color: #ff5977;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff5f9;
+}
+
+/*Client section*/
+#client{
+    background-color: #fff5f9;
+    text-align: center;
+    padding: 7% 15%;
+}
+.sclid-img{
+    margin: 50px 25px;
+}
+/*Footer section*/
+#footer{
+    padding: 5% 10%;
+}
+@media (max-width:1028px){
+    #home{
+        text-align: center;
+    }
+}
+span{
+    text-align: center;
+}
